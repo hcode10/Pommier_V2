@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Code Article" android:id="@+id/textViewRef"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="XXXXX" android:id="@+id/editTextRef" android:inputType="text" android:singleLine="true" android:ems="10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Emplacements" android:id="@+id/textViewEmplacement"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="XXXXX" android:id="@+id/editTextEmplacement" android:inputType="text" android:singleLine="true" android:ems="10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Quantité" android:id="@+id/textViewQuantite"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="XXXXX" android:id="@+id/editTextQuantite" android:inputType="number" android:singleLine="true" android:ems="10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Note" android:id="@+id/textViewNote"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="" android:id="@+id/editTextNote" android:inputType="textMultiLine" android:singleLine="true" android:ems="10"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Scan Emplacement" />
+
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Update BDD" android:id="@+id/buttonUpdateBDD" android:layout_weight="1.0"/>
+
+</LinearLayout>
+
+</LinearLayout>
